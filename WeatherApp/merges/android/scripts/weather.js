@@ -54,6 +54,8 @@
         $('#get-weather-btn').prop('disabled', true);
     }
 
+    $('#app-title').text("Android Weather");
+
     var onGetLocationSuccess = function (position) {
         var latitude = position.coords.latitude;
         var longitude = position.coords.longitude;

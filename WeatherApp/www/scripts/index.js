@@ -14,6 +14,7 @@
         
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         $('#get-weather-btn').click(WeatherApp.getWeather);
+        WeatherApp.getLocation();
     };
 
     function onPause() {

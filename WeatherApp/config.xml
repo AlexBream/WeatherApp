@@ -112,4 +112,5 @@
   <preference name="InAppBrowserStorageEnabled" value="True" />
   <preference name="SuppressesIncrementalRendering" value="True" />
   <preference name="Orientation" value="portrait" />
+  <plugin name="cordova-plugin-geolocation" version="2.1.0" />
 </widget>
